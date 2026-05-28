@@ -1,0 +1,113 @@
+@font-face {
+    font-family: heading;
+    src: url(./assets/Fonts/ChristmasTheme-1G0XZ.ttf);
+}
+body{
+    background-color:pink;
+}
+#matchLogo{
+    display:block;
+    width:650px;
+    margin-right: 25px;
+    border-radius: 90px;
+    margin: 0px auto;
+}
+
+h1{
+    font-family: heading;
+    font-size:30pt;
+    text-align:center;
+}
+
+#instructions{
+    font-size:20pt;
+    text-align:center;
+    width:600px;
+    margin: 60px auto; 
+}
+
+#parentGridContainer{
+    display:grid;
+    margin-top:50px;
+    width:80%;
+    grid-template-columns: repeat(6, auto);
+    justify-content:center;
+    gap:10px;
+    margin:0px auto;
+    
+}
+
+.cardHolder{
+    width: 150px;
+    height: 200px;
+    border:4px solid black;
+    box-shadow: 4px 4px 4px;;
+    
+}
+.card{
+    width: 150px;
+    height:200px;  
+    background-color: aliceblue;
+}
+
+h3{
+    width:25%;
+    margin: 15px auto; 
+    text-align:center;
+
+}
+.App{
+    position:relative;
+    
+}
+#message{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    display:block;
+    top:50%;
+    left: 20%;
+    background-color: rgba(47, 216, 228, 0.972);
+    text-align:center;
+    font-size: 38pt;
+    width: 60%;
+    height:30%;
+    padding:20px;
+    border: 8px inset black;
+
+}
+
+#newGameButton{
+    font-size:20pt;
+    font-family:heading;
+    border: 8px inset black;
+    background-color:greenyellow;
+}
+
+.difficultyBtns{
+    font-family: heading;
+    display: block;
+    font-size: 14pt;
+    margin: 10px auto;
+    background-color:white;
+    color: black;
+    border: 4px inset rgb(255, 29, 142);
+}
+
+.difficultyBtns:hover{
+    background-color: rgb(255, 29, 142);
+}
+
+.highlight{
+    background-color:aqua;
+}
+
+#resetButton{
+    display:block;
+    width:150px;
+    margin: 0px auto;
+    font-size:14pt;
+    padding:10px;
+    font-family:heading;
+    border: 8px inset black;
+    background-color:greenyellow;
+}
