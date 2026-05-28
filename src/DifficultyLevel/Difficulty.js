@@ -1,3 +1,5 @@
+//this can be broken down into componenents
+
 export default function Difficulty({func}){
     return(
         <div id="difficultyDiv">

@@ -1,3 +1,5 @@
+//here I was just playing around. no functionality
+
 import React, { useEffect, useState, useRef } from "react";
 import Randomizer from "./HelperFunctions/Randomizer";
 import Timer from "./Timer/Timer";

@@ -2,6 +2,9 @@ import cardData from "../data/cards";
 import lodash from "../../node_modules/lodash/cloneDeep";
 //Im importing the clone deep function from the lodash dependency in the node modules, which is making a deep copy of the cardData. Therefore, whatever is generated out of the randomizer function, will not directly affect the original object. Each time the randomizer function is called, it generates a deep copy of the card data and then Im working off that deep copy.
 
+//The significance of a deep copy is that it creates a completely independent version of an object — including all nested objects and arrays inside it.
+//Even though it looks like copy is separate, both variables point to the same object in memory. Changing one changes the other.
+
 const randomizer = (num) => {
   let deepCopy = lodash(cardData);
   let selectedNums = [];

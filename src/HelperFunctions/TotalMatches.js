@@ -1,5 +1,6 @@
 export default function TotalMatches(cards){
     let totalMatches=0;
+    //using a reduce method as a frequency counter
     let freqCounter = cards.reduce((acc,curr)=>{
         
         if(acc[curr.value]){
@@ -19,7 +20,7 @@ export default function TotalMatches(cards){
     
     return totalMatches
 }
-//this function is calculationg the total matches. It takes a parameter of cards to be passed in through the parent componenet which will ultiamtely be our random 24 cards. 
+//this function is calculationg the total matches. It takes a parameter of cards to be passed in through the parent componenet which will ultiamtely be our random 24 cards. (dependent on difficulty level)
 //Create a variable calle total matches to hold the total of matches. 
 //create a frequency counter to count the value of the cards. 
 //return the object, then loop through them using a for in loop. 
